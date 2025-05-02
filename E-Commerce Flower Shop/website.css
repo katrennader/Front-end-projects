@@ -18,8 +18,8 @@ body {
 }
 
 .navbar {
+  width:100%;
   display: flex;
-
   justify-content: center;
   align-items: center;
   gap: 200px;
@@ -30,7 +30,6 @@ body {
 
 .options {
   display: flex;
-
   justify-content: center;
   align-items: center;
   gap: 45px;
@@ -52,12 +51,10 @@ a:hover {
 .Mainimage {
   width: 550px;
   height: 400px;
-
 }
 
 .content {
   display: flex;
-
   justify-content: center;
   align-items: center;
   gap: 160px;
@@ -108,7 +105,6 @@ a:hover {
 
 .chooseusparagraph{
   text-align: left;
-
 }
 .rightpartparagraph {
   display: flex;
@@ -177,11 +173,8 @@ h3 {
 
 }
 .image_card{
-  /* /* padding: 2px; */
-  /* margin: 10px;  */
   margin-top: 7px;
   margin-left: 10px;
-  /* margin-bottom: 2px; */
   width: 250px;
   height: 230px;
   border-radius: 50px;
@@ -332,7 +325,6 @@ h3 {
 
 .ordercontent {
   display: flex;
-
   justify-content: center;
   align-items: center;
   gap: 250px;
@@ -372,4 +364,186 @@ input {
 .ordeeer:hover {
   background: black;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .logoimage {
+    display: none;
+  }
+  .navbar {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 0px;
+    height: 60px;
+    gap:-35px;
+
+  }
+
+  .options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40%;
+  }
+ 
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+  }
+
+  .Mainimage {
+    width: 100%;
+    height: 100%;
+    margin-top:-20%;
+  }
+  .paragraph {
+    width: 460px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+  .orderbutton{
+    margin-bottom: 30%;
+  }
+  .heading{
+    text-align: center;
+  }
+  .aboutcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftpartimage {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutimage {
+    width: 90%;
+    height: 100%;
+    margin-left: 10%;
+  }
+.rightpartparagraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .chooseusparagraph{
+    text-align: center;
+    width:95%;
+    margin:auto;
+  }
+  .card{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin: auto;
+  }
+  .image_card,.food_name,.food_description,.order,.star1,.price  {
+    margin: 10px auto;
+  }
+  .food_description{
+    text-align: center;
+    width:80%;
+  }
+  .image_card{
+    width:80%;
+  }
+
+.galleryy .galpartone,
+.galparttwo {
+  display: flex;
+  flex-direction: column;
+}
+.gal{
+  width:70%;
+  height:50%;
+}
+.galleryy h3 {
+  font-size: 40px;
+  text-align: center;
+}
+.galleryy p{
+  font-size: 18px;
+  text-align: center;
+}
+
+.reviewsboxs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.review{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:60%;
+  height: auto;
+  gap:10px;
+
+}
+.reviewimage{
+  width: 45%;
+  height: 25%;
+  padding:9px;
+ margin: auto;
+}
+
+.star,.revwords {
+  margin:auto;
+}
+.revwords{
+    text-align: center;
+    width:70%;
+}
+.orderN {
+  margin:auto;
+}
+.orderimage1 {
+  width:98%;
+  height: 70%;
+  margin: auto;
+}
+.ordercontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.orderform {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50%;
+}
+input {
+  width: 150px;
+  height: 30px;
+}
+/* .ordeeer {
+  width: 210px;
+  height: 40px;
+  border-radius: 20px;
+  background: rgb(253, 172, 21);
+  margin-top: 25px;
+  margin-left: 60px;
+
+} */
+
 }
