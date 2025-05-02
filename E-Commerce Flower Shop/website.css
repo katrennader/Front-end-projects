@@ -7,6 +7,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  background-color:rgb(241, 216, 184);
+}
 
 .logoimage {
   width: 100px;
@@ -77,37 +80,42 @@ a:hover {
 
 .text-home {
   margin-top: 50px;
+  text-align: left;
 }
 
 .orderbutton {
-  margin-top: 50px;
+  margin-top: 25px;
   width: 110px;
   height: 35px;
   padding: 10px;
   border: none;
+  border-radius: 25px;
   background-color: rgb(241, 179, 62);
   color: white;
 }
 
 .aboutcontent {
   display: flex;
-
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
 
 .aboutus {
   color: rgb(238, 165, 30);
-  font-style: italic;
+  font-family: mv boli;
 }
 
+.chooseusparagraph{
+  text-align: left;
+
+}
 .rightpartparagraph {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  gap: 50px;
+  gap:22px;
 }
 
 h1 {
@@ -160,55 +168,28 @@ h3 {
   padding-bottom: 40px;
 }
 
-.card1,
-.card2,
-.card3,
-.card4,
-.card5,
-.card6,
-.card7,
-.card8,
-.card9,
-.card10,
-.card11,
-.card12 {
+.card{
   width: 600px;
   height: 450px;
   width: 20%;
-  box-shadow: 4px 2px 4px rgba(87, 83, 83, 0.25);
+  box-shadow: 4px 5px 10px rgba(240, 61, 7, 0.25);
+  background: rgb(255, 199, 130);
 
 }
-
-.burgercard,
-.pastacard,
-.lasagnacard,
-.chocolate_Drinkcard,
-.pizzacard,
-.hot_dogcard,
-.jusecard,
-.biryanicard,
-.chocolatecard,
-.ice_creamcard,
-.Spanchicard,
-.sandwichcard {
-  margin: 10px 20px 10px 10px;
+.image_card{
+  /* /* padding: 2px; */
+  /* margin: 10px;  */
+  margin-top: 7px;
+  margin-left: 10px;
+  /* margin-bottom: 2px; */
   width: 250px;
   height: 230px;
+  border-radius: 50px;
+  box-shadow: 4px 2px 4px  rgba(252, 2, 2, 0.25);
 }
 
-.burger,
-.pizza,
-.pasta,
-.hot_dog,
-.Drink,
-.lasagna,
-.juse,
-.biryani,
-.chocolate,
-.ice_cream,
-.Spanchi,
-.sandwich {
-  color: rgb(243, 193, 28);
+.food_name {
+  color: rgb(235, 99, 9);
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -216,33 +197,32 @@ h3 {
   margin-bottom: 11px;
 }
 
-p {
-  text-align: center;
-}
+.food_description {
+  text-align: left;
+  margin-left: 15px;
 
-.fa-star,
-.fa-star-half-stroke {
-  color: rgb(240, 217, 11);
-  margin-top: 12px;
-  margin-left: 30px;
-  text-align: center;
-  font-size: 10px;
 }
 
 .price {
   font-weight: 900;
-  margin-top: 2px;
+  margin-top: 10px;
+  margin-left: 115px;
+}
+.star1{
+  margin-top: 15px;
+  margin-left: 79px;
+  margin-bottom: 10px;
 }
 
 .order {
-  background: black;
-  color: white;
+  background: rgb(238, 177, 63);
+  color: rgb(0, 0, 0);
   margin-top: 7px;
   margin-left: 75px;
   width: 120px;
   height: 30px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 5px;
 }
 
@@ -257,12 +237,7 @@ p {
 
 /* this will be one class called image-gallery-container */
 
-.gal1,
-.gal2,
-.gal3,
-.gal4,
-.gal5,
-.gal6 {
+.gal{
   width: 385px;
   height: 250px;
   transition: .3s;
@@ -270,76 +245,62 @@ p {
 }
 
 
-.gal1:hover .overlay-image-gallery,
-.gal2:hover,
-.gal3:hover,
-.gal4:hover,
-.gal5:hover,
-.gal6:hover {
+.gal:hover .overlay-image-gallery {
   opacity: 1;
   visibility: visible;
   transition: all 0.5s ease-in-out;
 }
 
 .galleryy h3 {
-  font-size: 35px;
-
-  color: rgb(238, 165, 30);
-  font-family: polo;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: mv boli;
   text-align: center;
+  margin-top: 50px;
+
 }
-
-
+.galleryy p{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: mv boli;
+  text-align: center;
+  margin-top: 10px;
+}
 
 .overlay-image-gallery {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(10, 9, 8, 0.5);
+  border-radius: 15%;
   opacity: 0;
   visibility: hidden;
 }
 
-.im1,
-.im2,
-.im3,
-.im4,
-.im5,
-.im6 {
+.Gallery_image{
+  border: 5px solid rgb(235, 196, 22);
+  border-radius: 15%;
   width: 100%;
-  height:
-    100%;
-
+  height:100%;
 }
 
 .reviewsboxs {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 35px;
+  margin-bottom: 100px;
 }
 
-.review1,
-.review2,
-.review3,
-.review4 {
-  width: 250px;
-  height: 320px;
-  box-shadow: 4px 2px 4px rgba(224, 192, 8, 0.25);
+.review{
+  width: 270px;
+  height: 400px;
+  box-shadow: 4px 5px 10px rgba(224, 87, 8, 0.904);
+  border-radius: 20px;
+  background: rgb(255, 199, 130);
 }
-
-.review1:hover,
-.review2:hover,
-.review3:hover,
-.review4:hover {
-  background-color: bisque;
-}
-
-.reviewimage1,
-.reviewimage2,
-.reviewimage3,
-.reviewimage4 {
+.reviewimage{
   width: 149px;
   height: 149px;
   border-radius: 50%;
@@ -349,10 +310,12 @@ p {
 
 .star {
   margin-top: 20px;
+  margin-left: 70px;
 }
 
 .revwords {
   margin-top: 25px;
+  margin-left: 20px;
 }
 
 .orderN {
@@ -383,17 +346,26 @@ p {
   align-items: center;
   gap: 45px;
 }
-
+label {
+  font-weight: bold;
+  color: rgb(240, 140, 26);
+}
 input {
-  margin-bottom: 15px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  width: 210px;
+  height: 30px;
+  background: rgb(241, 233, 233);
+  border: none;
 }
 
 .ordeeer {
-  width: 150px;
-  height: 50px;
+  width: 210px;
+  height: 40px;
   border-radius: 20px;
-  background: orange;
+  background: rgb(253, 172, 21);
   margin-top: 25px;
+  margin-left: 60px;
 
 }
 
