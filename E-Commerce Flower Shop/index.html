@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>my website</title>
-    <link rel="stylesheet" href="website.css" />
+    <link rel="stylesheet" href="web.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
   <body>
-    <!--               home section                 -->
+    <!--             home section             -->
     <section class="home">
       <nav class="navbar">
         <div class="logo1">
@@ -268,9 +268,10 @@
        <div class="galpartone">
         <div class="gal1">
           <img  class="im1"src="imgs/gallary_1.jpg">
-          <h3>toast</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nulla, provident iusto nam excepturi illum quaerat!</p>
+          <div class="overlay-image-gallery">
+            <h3>toast 1 </h3>
+          <p>the right code will be here</p>
+          </div>
         </div>
         <div class="gal2">
           <img  class="im2"src="imgs/gallary_2.jpg">
@@ -359,9 +360,50 @@
         </div>
 
        </div>
+       <br><br><br><br>
     </section>
 
       <section id="ornow" class="ordersection">
+           <div class="orderN">
+            <p>Order Now <span class="orderword">👉</span></p>
+           </div>
+
+        <div class="ordercontent">
+            <div class="orderimage">
+              <img class="orderimage1" src="imgs/order_image.png">
+            </div>
+            <form>
+            <div class="orderform">
+
+            <div class="orderpart1">
+              <label for ="name"> Name</label><br>
+              <input id="name" type="text" placeholder="Enter Your Name">
+
+              <label for ="Email"> Email</label>
+              <input id="Email" type="email" placeholder="Enter Your email">
+
+              <label for ="phone"> phone</label>
+              <input id="phone" type="text" placeholder="Enter Your phone-number">
+
+            </div>
+              <div class="orderpart2">
+                <label for ="address"> Address</label>
+              <input id="address" type="text" placeholder="Enter Your Address">
+
+              <label for ="ordernumber">orderNumber</label>
+              <input id="ordernumber" type="text" placeholder="Enter Your ordernumber">
+              
+              <label for ="yourorder">Your_Order</label>
+              <input id="yourorder" type="text" placeholder="Enter Your order">
+              
+            </div>
+            <div> 
+            </div>
+          </div>
+          <button class="ordeeer">Order Now</button>
+       </form>
+            
+           
 
       </section>
 
