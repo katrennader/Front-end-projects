@@ -140,11 +140,9 @@ h3 {
 .headinggallery,
 .headingreview {
   display: flex;
-
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .mword,
@@ -160,25 +158,21 @@ h3 {
   flex-wrap: wrap;
   gap: 25px;
   justify-content: center;
-  align-items: center;
   padding-bottom: 40px;
 }
 
 .card{
-  width: 600px;
-  height: 450px;
   width: 20%;
   box-shadow: 4px 5px 10px rgba(240, 61, 7, 0.25);
   background: rgb(255, 199, 130);
   border-radius: 10%;
+  padding:15px;
 
 }
 .image_card{
-  margin-top: 7px;
-  margin-left: 10px;
-  width: 250px;
+  width: 100%;
   height: 230px;
-  border-radius: 50px;
+  border-radius: 10%;
   box-shadow: 4px 2px 4px  rgba(252, 2, 2, 0.25);
  
 }
@@ -188,32 +182,33 @@ h3 {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  margin-right: 20px;
   margin-bottom: 11px;
 }
 
 .food_description {
-  text-align: left;
-  margin-left: 15px;
-
+  text-align: center;
 }
 
 .price {
   font-weight: 900;
-  margin-top: 10px;
-  margin-left: 115px;
+  text-align: center;
 }
 .star1{
   margin-top: 15px;
-  margin-left: 79px;
+  text-align: center;
+  /* margin-left: 79px; */
   margin-bottom: 10px;
 }
 
 .order {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   background: rgb(238, 177, 63);
   color: rgb(0, 0, 0);
   margin-top: 7px;
-  margin-left: 75px;
+  text-align: center;
+  margin-inline: auto;
   width: 120px;
   height: 30px;
   border: none;
@@ -284,33 +279,33 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 35px;
+  gap: 30px;
   margin-bottom: 100px;
+  padding:10px;
 }
 
 .review{
-  width: 270px;
-  height: 400px;
+  width: 20%;
+  height: 350px;
   box-shadow: 4px 5px 10px rgba(224, 87, 8, 0.904);
   border-radius: 20px;
   background: rgb(255, 199, 130);
+  padding:10px
 }
 .reviewimage{
-  width: 149px;
-  height: 149px;
+  width: 65%;
   border-radius: 50%;
-  margin-left: 20%;
-  margin-top: 20px;
+  display:flex;
+  margin: auto;
 }
 
 .star {
+ text-align: center;
   margin-top: 20px;
-  margin-left: 70px;
 }
-
 .revwords {
-  margin-top: 25px;
-  margin-left: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .orderN {
@@ -368,6 +363,128 @@ input {
   color: white;
 }
 
+
+
+
+/*               laptop screen          */
+@media(min-width: 960px) and (max-width:1023px) {
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .Mainimage {
+    width: 95%;
+    height: 60%;
+  }
+  .paragraph {
+    width: 650px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-home {
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .orderbutton{
+    margin-bottom: 30%;
+    margin-left: 25px;
+  }
+  .heading{
+    text-align: center;
+  }
+  .aboutcontent {
+    gap: 10px;
+    margin-bottom: 100px;
+    padding: 15px;
+  }
+  .leftpartimage {
+    width:65%;
+  }
+  .aboutimage {
+    width: 100%;
+    height: 100%;
+  }
+.rightpartparagraph {
+  width:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .chooseusparagraph{
+    width:100%;
+    margin:auto;
+
+  }
+  .card{
+    width: 20%;
+    box-shadow: 4px 5px 10px rgba(240, 61, 7, 0.25);
+    background: rgb(255, 199, 130);
+    border-radius: 10%;
+  }
+  .image_card{
+    width: 100%;
+    height: 150px;
+    border-radius: 10%;
+    box-shadow: 4px 2px 4px  rgba(252, 2, 2, 0.25);
+   
+  }
+  .food_name{
+    margin: auto;
+  }
+
+.galleryy .galpartone,
+.galparttwo {
+ padding: 5px 20px 5px 20px;
+ 
+}
+.gal{
+  width:70%;
+  height:50%;
+}
+.galleryy h3 {
+  font-size: 40px;
+  text-align: center;
+}
+.galleryy p{
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+}
+
+.reviewsboxs,.review{ 
+  padding:5px;
+}
+.orderimage1 {
+  width:100%;
+  height: 100%;
+  margin: auto;
+  margin-top: -30px;
+}
+.ordercontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+input {
+  width: 180px;
+  height: 30px;
+}
+}
+
+
+
+
+/* tablet screen */
+@media(min-width: 768px) and (max-width: 1024px) {
+
+}
+/* mobile screen*/
 @media (max-width: 768px) {
   .logoimage {
     display: none;
