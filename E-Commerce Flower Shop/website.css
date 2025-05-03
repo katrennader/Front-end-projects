@@ -7,8 +7,9 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
-  background-color:rgb(241, 216, 184);
+  background-color: rgb(241, 216, 184);
 }
 
 .logoimage {
@@ -18,7 +19,7 @@ body {
 }
 
 .navbar {
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,15 +104,16 @@ a:hover {
   font-family: mv boli;
 }
 
-.chooseusparagraph{
+.chooseusparagraph {
   text-align: left;
 }
+
 .rightpartparagraph {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  gap:22px;
+  gap: 22px;
 }
 
 h1 {
@@ -161,20 +163,29 @@ h3 {
   padding-bottom: 40px;
 }
 
-.card{
+.card {
   width: 20%;
   box-shadow: 4px 5px 10px rgba(240, 61, 7, 0.25);
   background: rgb(255, 199, 130);
   border-radius: 10%;
-  padding:15px;
-
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
-.image_card{
+.card:hover{
+  background: rgb(61, 55, 40);
+  color: white;
+}
+.image_card {
   width: 100%;
   height: 230px;
   border-radius: 10%;
-  box-shadow: 4px 2px 4px  rgba(252, 2, 2, 0.25);
- 
+  box-shadow: 4px 2px 4px rgba(252, 2, 2, 0.25);
+
+}
+
+.cardcontent {
+  flex-grow: 1;
 }
 
 .food_name {
@@ -193,7 +204,8 @@ h3 {
   font-weight: 900;
   text-align: center;
 }
-.star1{
+
+.star1 {
   margin-top: 15px;
   text-align: center;
   /* margin-left: 79px; */
@@ -201,7 +213,7 @@ h3 {
 }
 
 .order {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background: rgb(238, 177, 63);
@@ -227,7 +239,7 @@ h3 {
 
 /* this will be one class called image-gallery-container */
 
-.gal{
+.gal {
   width: 385px;
   height: 250px;
   transition: .3s;
@@ -249,7 +261,8 @@ h3 {
   margin-top: 50px;
 
 }
-.galleryy p{
+
+.galleryy p {
   font-size: 20px;
   color: rgb(255, 255, 255);
   font-family: mv boli;
@@ -268,11 +281,11 @@ h3 {
   visibility: hidden;
 }
 
-.Gallery_image{
+.Gallery_image {
   border: 5px solid rgb(235, 196, 22);
   border-radius: 15%;
   width: 100%;
-  height:100%;
+  height: 100%;
 }
 
 .reviewsboxs {
@@ -281,28 +294,30 @@ h3 {
   align-items: center;
   gap: 30px;
   margin-bottom: 100px;
-  padding:10px;
+  padding: 10px;
 }
 
-.review{
+.review {
   width: 20%;
   height: 350px;
   box-shadow: 4px 5px 10px rgba(224, 87, 8, 0.904);
   border-radius: 20px;
   background: rgb(255, 199, 130);
-  padding:10px
+  padding: 10px
 }
-.reviewimage{
+
+.reviewimage {
   width: 65%;
   border-radius: 50%;
-  display:flex;
+  display: flex;
   margin: auto;
 }
 
 .star {
- text-align: center;
+  text-align: center;
   margin-top: 20px;
 }
+
 .revwords {
   text-align: center;
   margin-top: 20px;
@@ -335,10 +350,12 @@ h3 {
   align-items: center;
   gap: 45px;
 }
+
 label {
   font-weight: bold;
   color: rgb(240, 140, 26);
 }
+
 input {
   margin-bottom: 18px;
   border-radius: 10px;
@@ -346,6 +363,9 @@ input {
   height: 30px;
   background: rgb(241, 233, 233);
   border: none;
+}
+input:hover{
+  background: rgb(254, 206, 102);
 }
 
 .ordeeer {
@@ -367,7 +387,7 @@ input {
 
 
 /*               laptop screen          */
-@media(min-width: 960px) and (max-width:1023px) {
+@media(min-width: 960px) and (max-width:1280px) {
 
   .content {
     display: flex;
@@ -375,129 +395,293 @@ input {
     align-items: center;
     gap: 100px;
   }
+
   .Mainimage {
     width: 95%;
     height: 60%;
   }
+
   .paragraph {
     width: 650px;
     height: 600px;
     display: flex;
     flex-direction: column;
   }
+
   .text-home {
     margin-top: 40px;
     text-align: left;
     margin-left: 20px;
   }
-  .orderbutton{
+
+  .orderbutton {
     margin-bottom: 30%;
     margin-left: 25px;
   }
-  .heading{
+
+  .heading {
     text-align: center;
   }
+
   .aboutcontent {
     gap: 10px;
     margin-bottom: 100px;
     padding: 15px;
   }
+
   .leftpartimage {
-    width:65%;
+    width: 65%;
   }
+
   .aboutimage {
     width: 100%;
     height: 100%;
   }
-.rightpartparagraph {
-  width:50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+  .rightpartparagraph {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .chooseusparagraph{
-    width:100%;
-    margin:auto;
+
+  .chooseusparagraph {
+    width: 100%;
 
   }
-  .card{
-    width: 20%;
+
+  .card {
     box-shadow: 4px 5px 10px rgba(240, 61, 7, 0.25);
     background: rgb(255, 199, 130);
     border-radius: 10%;
+    width: 40%;
   }
-  .image_card{
+
+
+
+  .image_card {
     width: 100%;
     height: 150px;
     border-radius: 10%;
-    box-shadow: 4px 2px 4px  rgba(252, 2, 2, 0.25);
-   
+    box-shadow: 4px 2px 4px rgba(252, 2, 2, 0.25);
+
   }
-  .food_name{
+
+  .food_name {
     margin: auto;
   }
 
-.galleryy .galpartone,
-.galparttwo {
- padding: 5px 20px 5px 20px;
- 
-}
-.gal{
-  width:70%;
-  height:50%;
-}
-.galleryy h3 {
-  font-size: 40px;
-  text-align: center;
-}
-.galleryy p{
-  font-size: 15px;
-  text-align: center;
-  margin: auto;
-}
+  .galleryy .galpartone,
+  .galparttwo {
+    padding: 5px 20px 5px 20px;
 
-.reviewsboxs,.review{ 
-  padding:5px;
-}
-.orderimage1 {
-  width:100%;
-  height: 100%;
-  margin: auto;
-  margin-top: -30px;
-}
-.ordercontent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 150px;
-}
-input {
-  width: 180px;
-  height: 30px;
-}
-}
+  }
 
+  .gal {
+    width: 70%;
+    height: 50%;
+  }
 
+  .galleryy h3 {
+    font-size: 40px;
+    text-align: center;
+  }
 
+  .galleryy p {
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .reviewsboxs,
+  .review {
+    padding: 5px;
+  }
+
+  .orderimage1 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: -30px;
+  }
+
+  .ordercontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+
+  input {
+    width: 180px;
+    height: 30px;
+  }
+}
 
 /* tablet screen */
-@media(min-width: 768px) and (max-width: 1024px) {
+@media(min-width: 720px) and (max-width: 960px) {
+  .logoimage {
+    display: flex;
+    justify-content: start;
+    margin-right: 150px;
+    margin-top: -15px;
+  }
+
+  .options {
+    margin-left: -40%;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .heading {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .Mainimage {
+    width: 95%;
+    height: 60%;
+    margin-top: -35px;
+  }
+
+  .paragraph {
+    width: 650px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-home {
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .orderbutton {
+    margin-bottom: 30%;
+    margin-left: 25px;
+  }
+
+  .aboutcontent {
+    gap: 10px;
+    margin-bottom: 100px;
+    padding: 10px;
+  }
+
+  .leftpartimage {
+    width: 80%;
+  }
+
+  .aboutimage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .rightpartparagraph {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chooseusparagraph {
+    width: 100%;
+    margin: auto;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width:35%;
+  }
+
+  .cardcontent {
+    flex-grow: 1px;
+  }
+
+  .image_card {
+    width: 100%;
+    height: 150px;
+    border-radius: 10%;
+    box-shadow: 4px 2px 4px rgba(252, 2, 2, 0.25);
+  }
+
+  .galleryy,.galpartone,.galparttwo {
+    padding :20px;
+    
+  }
+  .gal { 
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+  } 
+
+  .galleryy h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .galleryy p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .reviewsboxs{
+    display: flex;
+   flex-wrap: wrap;  
+   gap:30px;
+   justify-content: center;  
+    padding: 5px;
+
+  }
+  .review {
+   width:35%;
+  }
+
+  .orderimage1 {
+    width: 100%;
+    margin: auto;
+    margin-top: -30px;
+  }
+
+  .ordercontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+
+  input {
+    width: 180px;
+    height: 30px;
+  }
+
+
+
 
 }
+
 /* mobile screen*/
-@media (max-width: 768px) {
+@media  (min-width: 481px) and (max-width: 768px) {
   .logoimage {
     display: none;
   }
+
   .navbar {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     border-top: 0px;
     height: 60px;
-    gap:-35px;
+    gap: -35px;
 
   }
 
@@ -507,7 +691,7 @@ input {
     align-items: center;
     margin-left: -40%;
   }
- 
+
   .content {
     display: flex;
     flex-direction: column;
@@ -519,8 +703,9 @@ input {
   .Mainimage {
     width: 100%;
     height: 100%;
-    margin-top:-20%;
+    margin-top: -20%;
   }
+
   .paragraph {
     width: 460px;
     height: 600px;
@@ -529,133 +714,162 @@ input {
     justify-content: center;
     align-items: center
   }
-  .orderbutton{
+
+  .orderbutton {
     margin-bottom: 30%;
   }
-  .heading{
+
+  .heading {
     text-align: center;
   }
+
   .aboutcontent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .leftpartimage {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .aboutimage {
     width: 90%;
     height: 100%;
     margin-left: 10%;
   }
-.rightpartparagraph {
+
+  .rightpartparagraph {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .chooseusparagraph{
+
+  .chooseusparagraph {
     text-align: center;
-    width:95%;
-    margin:auto;
+    width: 95%;
+    margin: auto;
   }
-  .card{
+
+  .card {
     width: 70%;
     height: 70%;
     display: flex;
     flex-direction: column;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
     margin: auto;
   }
-  .image_card,.food_name,.food_description,.order,.star1,.price  {
+
+  .image_card,
+  .food_name,
+  .food_description,
+  .order,
+  .star1,
+  .price {
     margin: 10px auto;
   }
-  .food_description{
+
+  .food_description {
     text-align: center;
-    width:80%;
-  }
-  .image_card{
-    width:80%;
+    width: 80%;
   }
 
-.galleryy .galpartone,
-.galparttwo {
-  display: flex;
-  flex-direction: column;
-}
-.gal{
-  width:70%;
-  height:50%;
-}
-.galleryy h3 {
-  font-size: 40px;
-  text-align: center;
-}
-.galleryy p{
-  font-size: 18px;
-  text-align: center;
-}
+  .image_card {
+    width: 80%;
+  }
 
-.reviewsboxs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.review{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:60%;
-  height: auto;
-  gap:10px;
+  .galleryy .galpartone,
+  .galparttwo {
+    display: flex;
+    flex-direction: column;
+  }
 
-}
-.reviewimage{
-  width: 45%;
-  height: 25%;
-  padding:9px;
- margin: auto;
-}
+  .gal {
+    width: 70%;
+    height: 50%;
+  }
 
-.star,.revwords {
-  margin:auto;
-}
-.revwords{
+  .galleryy h3 {
+    font-size: 40px;
     text-align: center;
-    width:70%;
-}
-.orderN {
-  margin:auto;
-}
-.orderimage1 {
-  width:98%;
-  height: 70%;
-  margin: auto;
-}
-.ordercontent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.orderform {
-  width: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -50%;
-}
-input {
-  width: 150px;
-  height: 30px;
-}
-/* .ordeeer {
+  }
+
+  .galleryy p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .reviewsboxs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    gap: 10px;
+
+  }
+
+  .reviewimage {
+    width: 45%;
+    height: 25%;
+    padding: 9px;
+    margin: auto;
+  }
+
+  .star,
+  .revwords {
+    margin: auto;
+  }
+
+  .revwords {
+    text-align: center;
+    width: 70%;
+  }
+
+  .orderN {
+    margin: auto;
+  }
+
+  .orderimage1 {
+    width: 98%;
+    height: 70%;
+    margin: auto;
+  }
+
+  .ordercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .orderform {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50%;
+  }
+
+  input {
+    width: 150px;
+    height: 30px;
+  }
+
+  /* .ordeeer {
   width: 210px;
   height: 40px;
   border-radius: 20px;
@@ -666,3 +880,5 @@ input {
 } */
 
 }
+
+
