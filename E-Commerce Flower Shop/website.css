@@ -893,15 +893,15 @@ input:hover{
     align-items: center;
     border-top: 0px;
     height: 60px;
-    width: fit-content;
+    width: 420px;
   }
 
   .options {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -60%;
-  gap: 25px;
+    margin-left: -40%;
+    gap: 25px;
   }
 
   .content {
@@ -1093,7 +1093,7 @@ input:hover{
   }
 
   .orderimage1 {
-    width: 60%;
+    width: 100%;
     height: 70%;
   }
 
@@ -1113,11 +1113,11 @@ input:hover{
   }
 
   input {
-    width: 150px;
+    width: 120px;
     height: 30px;
   }
   .orderpart1,.orderpart2{
-    width: 180px;
+    width: 100px;
   }
 form{
     display:flex;
