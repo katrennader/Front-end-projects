@@ -884,8 +884,9 @@ input:hover{
 /* mobile screen*/
 @media  (min-width: 0) and (max-width: 480px) {
   .logoimage {
-    display: none;
+    width:30%;
   }
+  
 
   .navbar {
     display: flex;
@@ -893,15 +894,16 @@ input:hover{
     align-items: center;
     border-top: 0px;
     height: 60px;
-    width: 410px;
+    width:430px;
   }
 
   .options {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -45%;
-    gap:18px;
+    margin-left: -40%;
+    gap:9px;
+    font-size: 12px;
   }
 
   .content {
