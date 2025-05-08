@@ -258,7 +258,7 @@ h3 {
   color: rgb(255, 255, 255);
   font-family: mv boli;
   text-align: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 
 }
 
@@ -267,7 +267,7 @@ h3 {
   color: rgb(255, 255, 255);
   font-family: mv boli;
   text-align: center;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .overlay-image-gallery {
@@ -485,12 +485,13 @@ input:hover{
   .galleryy h3 {
     font-size: 40px;
     text-align: center;
+    margin-top: 50px;
   }
 
   .galleryy p {
     font-size: 15px;
     text-align: center;
-    margin: auto;
+    margin-top: 10px;
   }
 
   .reviewsboxs,
@@ -880,5 +881,260 @@ input:hover{
 } */
 
 }
+/* mobile screen*/
+@media  (min-width: 0) and (max-width: 480px) {
+  .logoimage {
+    display: none;
+  }
 
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0px;
+    height: 60px;
+    width: fit-content;
+  }
+
+  .options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -60%;
+  gap: 25px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     gap:30px;
+  }
+
+  .Mainimage {
+    width: 100%;
+    height: 100%;
+     }
+
+  .paragraph {
+    width: 460px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
+  .orderbutton {
+    margin-bottom: 20%;
+    width: 40%;
+    font-size: 15px;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 50px;
+    width:80%;
+    padding:10px;
+
+  }
+  .text-home {
+    width: 100%;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 19px;
+    padding:55px;
+  }
+ .rightpartparagraph h1{
+     font-size: 50px;
+     /* width: 100%; */
+ }
+ .rightpartparagraph h3{
+     font-size: 25px;
+ }
+
+  .aboutcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leftpartimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutimage {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+  }
+
+  .rightpartparagraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+  }
+
+  .chooseusparagraph {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+  }
+  .headingmenu h1{
+    font-size: 50px;
+  }
+
+  .card {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .image_card,
+  .food_name,
+  .food_description,
+  .price {
+    margin: 10px auto;
+  }
+
+  .food_description {
+    text-align: center;
+    width: 100%;
+  }
+  .star1{
+    font-size: 18px;
+  }
+   
+  .image_card {
+    width: 100%;
+    height: 200px;
+  }
+  .order{
+    width:100px;
+
+  }
+  .headinggallery h1{
+   font-size: 55px;
+   text-align: center;
+  }
+
+  .galleryy .galpartone,
+  .galparttwo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gal {
+    width: 85%;
+    height: 50%;
+  }
+
+  .galleryy h3 {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .galleryy p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .headingreview h1{
+    font-size: 40px;
+   
+  }
+
+  .reviewsboxs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    gap: 10px;
+  }
+
+  .reviewimage {
+    width: 60%;
+    padding: 9px;
+    margin: auto;
+  }
+
+  .star,
+  .revwords {
+    margin: auto;
+  }
+
+  .revwords {
+    text-align: center;
+    padding:10px;
+  }
+
+  .orderN {
+  font-size: 45px;    
+  margin: auto;
+  }
+
+  .orderimage1 {
+    width: 60%;
+    height: 70%;
+  }
+
+  .ordercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .orderform {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50%;
+  }
+
+  input {
+    width: 150px;
+    height: 30px;
+  }
+  .orderpart1,.orderpart2{
+    width: 180px;
+  }
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+  }
+
+  .ordeeer {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background: rgb(253, 172, 21);
+  margin: auto;
+
+}
+
+}
 
