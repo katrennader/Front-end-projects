@@ -1,0 +1,266 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+   background: black;
+    color :white;
+}
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./imgs/header-image.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width :100%;
+    height:100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding : 20PX 0 ;
+    gap: 52%;
+}
+.logo{
+    width:150px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.language,.sign_in{
+    background: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.sign_in{
+    background-color: red;
+    width: 74px;
+    padding: 7px;
+}
+.sign_in:hover{
+    background-color: #565757;
+}
+.language{
+    border: 1px solid white;
+    background-color: #121212;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+}
+.paragraphs_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 50px;
+}
+.paragraphs_container h1{
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 70px;
+    max-width: 650px;
+
+}
+.paragraphs_container h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.paragraphs_container p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.Get_started{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+.Get_started input{
+    border: 1px solid white;
+    width: 320px;
+    height: 50px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 5px;
+    margin-top: 2%;
+    color: white;
+}
+.Get_started button{
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+    background-color: #ff0000;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 2%;
+    border : none;
+}
+.Get_started button:hover{
+    background-color: #565757;
+}
+.Get_started button img {
+    width: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 50px 20px;
+    border-color : white;
+    border-style: double;
+    border-width: 2px 0 ;
+}
+.row .feature_content , .feature_image{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.row img{
+ display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h2{
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left : 10px;
+}
+.features p{
+    font-size: 22px;
+    padding-left: 10px;
+}
+.frequently-asked-questions {
+    width: 100%;
+}
+.frequently-asked-questions h2{
+    padding: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.frequently-asked-questions .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.accordion{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    padding : 10px 50px;
+    margin-left: 15%;
+}
+.accordion li{
+    list-style: none;
+    width: 80%;
+    padding: 10px 50px;
+}
+.accordion label{
+    display :flex;
+    align-items: center;
+    padding : 20px;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: #353232;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+.accordion label:hover{
+    background-color: #565757;
+}
+
+label::after{
+    content: "+";
+    position: absolute;
+    font-size: 34px;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.answer{
+    background-color: #303030;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0 20px;
+    transition: max-height 0.5s , padding 0.5s ;
+}
+.accordion input[type="radio"]:checked + label + .answer{
+    max-height: 650px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 55px;
+}
+.start p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.start input{
+     width: 500px;
+    height: 55px;
+    color: white;
+}
+.start button{
+    height: 55px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    padding : 10px;
+}
+.contact_us a{
+    padding: 10px;
+    font-size: 20px;
+}
+.footer div{
+    width:35%;
+     padding: 20px;
+}
+ .footer a{
+    display: block;
+    padding : 10px;
+    text-decoration-color: grey;
+    color: grey;
+}
+ .contact_us > a{
+     color: blue;
+     text-decoration-color: blue;
+ }
+.bottom_button{
+    margin:3%;
+}
+.copyright p{
+    font-size: 19px;
+    margin: 3%;
+}
+.copyright p a{
+    color: blue;
+    text-decoration-color: blue;
+}
