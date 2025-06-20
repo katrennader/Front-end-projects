@@ -293,25 +293,29 @@ input[type="radio"]{
         width: 18px;
     }
     .row img{
-        width: 100%;
+        width: 65%;
+    }
+    .row{
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     .features h2{
-        font-size: 20px;
+        font-size: 32px;
         font-weight: 600;
         margin-bottom: 15px;
     }
     .features p{
-        font-size: 12px;
+        font-size: 18px;
     }
     .frequently-asked-questions h2{
         font-size: 19px;
     }
     .accordion{
         margin-left: 0;
-        margin-right: 25px;
+        padding :0;
     }
     .accordion li{
-        width: 110%;
+        width: 100%;
     }
     label::after{
         font-size: 25px;
