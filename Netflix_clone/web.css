@@ -293,7 +293,7 @@ input[type="radio"]{
         width: 18px;
     }
     .row img{
-        width: 65%;
+        width: 90%;
     }
     .row{
         flex-direction: column;
