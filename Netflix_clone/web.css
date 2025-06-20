@@ -38,6 +38,7 @@ nav{
     font-size: 15px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .sign_in{
     background-color: red;
@@ -96,6 +97,7 @@ nav{
     border-radius: 5px;
     margin-top: 2%;
     color: white;
+    cursor: pointer;
 }
 .Get_started button{
     width: 200px;
@@ -107,6 +109,7 @@ nav{
     border-radius: 5px;
     margin-top: 2%;
     border : none;
+    cursor: pointer;
 }
 .Get_started button:hover{
     background-color: #565757;
@@ -240,7 +243,7 @@ input[type="radio"]{
     font-size: 20px;
 }
 .footer div{
-    width:35%;
+     width:35%;
      padding: 20px;
 }
  .footer a{
@@ -263,4 +266,93 @@ input[type="radio"]{
 .copyright p a{
     color: blue;
     text-decoration-color: blue;
+}
+
+@media ( min-width: 200px) and (max-width : 680px) {
+    nav{
+        gap: 20%;
+    }
+  .logo{
+      width:120px;
+  }
+  .paragraphs_container{
+      margin-top: 2%;
+  }
+    .paragraphs_container h1{
+        font-size: 45px;
+        font-weight: 550;
+        line-height: 60px;
+    }
+    .paragraphs_container p{
+        font-size: 13px;
+    }
+    .Get_started input{
+        width: 270px;
+        font-size: 18px;
+    }
+    .Get_started button{
+        width: 180px;
+        font-size: 22px;
+    }
+    .row img{
+        width: 100%;
+    }
+    .features h2{
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .features p{
+        font-size: 15px;
+    }
+    .frequently-asked-questions h2{
+        font-size: 30px;
+    }
+    .accordion{
+        margin-left: 0;
+    }
+    .accordion li{
+        width: 100%;
+    }
+    label::after{
+        font-size: 25px;
+        right: 10px;
+    }
+    .accordion label{
+        font-size: 18px;
+    }
+    .start p{
+        font-size: 17px;
+        padding-left : 10px;
+    }
+    .start input{
+        width: 270px;
+        height: 55px;
+        color: white;
+    }
+    .start button{
+     width: 180px;
+    }
+    .contact_us a{
+        font-size: 19px;
+    }
+    .footer a,.copyright p{
+        font-size: 15px;
+    }
+    .footer{
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        gap: 1px;
+    }
+    .footer div{
+         width:100%;
+         padding: 0;
+     }
+
+
+
+
+
+
 }
