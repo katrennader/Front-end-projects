@@ -270,49 +270,48 @@ input[type="radio"]{
 
 @media ( min-width: 200px) and (max-width : 680px) {
     nav{
-        gap: 20%;
+        gap: 10%;
     }
   .logo{
-      width:120px;
+      width:100px;
   }
   .paragraphs_container{
       margin-top: 2%;
   }
     .paragraphs_container h1{
-        font-size: 45px;
+        font-size: 30px;
         font-weight: 550;
-        line-height: 60px;
+        line-height: 30px;
+    }
+    .paragraphs_container h3{
+        font-size: 16px;
     }
     .paragraphs_container p{
-        font-size: 13px;
+        font-size: 10px;
     }
-    .Get_started input{
-        width: 270px;
-        font-size: 18px;
-    }
-    .Get_started button{
-        width: 180px;
-        font-size: 22px;
+    .Get_started button img {
+        width: 18px;
     }
     .row img{
         width: 100%;
     }
     .features h2{
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 600;
         margin-bottom: 15px;
     }
     .features p{
-        font-size: 15px;
+        font-size: 12px;
     }
     .frequently-asked-questions h2{
-        font-size: 30px;
+        font-size: 19px;
     }
     .accordion{
         margin-left: 0;
+        margin-right: 25px;
     }
     .accordion li{
-        width: 100%;
+        width: 110%;
     }
     label::after{
         font-size: 25px;
@@ -322,16 +321,21 @@ input[type="radio"]{
         font-size: 18px;
     }
     .start p{
-        font-size: 17px;
-        padding-left : 10px;
+        font-size: 15px;
+        padding-left : 10%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
     .start input{
-        width: 270px;
-        height: 55px;
+        width: 80%;
         color: white;
     }
     .start button{
-     width: 180px;
+     width: 40%;
+        font-size: 20px;
     }
     .contact_us a{
         font-size: 19px;
