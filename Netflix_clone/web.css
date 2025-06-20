@@ -111,6 +111,10 @@ nav{
     border : none;
     cursor: pointer;
 }
+.Get_started button a{
+    text-decoration: none;
+    color: white;
+}
 .Get_started button:hover{
     background-color: #565757;
 }
